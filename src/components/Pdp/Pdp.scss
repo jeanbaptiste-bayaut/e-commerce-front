@@ -1,0 +1,44 @@
+.breadcrumb {
+    margin-top: 1em;
+}
+.pdp-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    max-width: 1920px;
+    gap: 1em;
+
+    p {
+        color: grey;
+    }
+
+    .pdp-left {
+        max-width: 50%;
+        flex-wrap: wrap;
+        gap: 1em;
+
+        img {
+            width: 280px;
+            margin: 1px
+        }
+    }
+
+    .pdp-right {
+        width: 50%;
+        
+        h1, p {
+            margin-bottom: 1em;
+        }
+
+        .btn-group-vertical {
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+    }
+}
+
+.offcanvas-body p {
+    color: grey;
+}

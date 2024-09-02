@@ -1,0 +1,16 @@
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F8F9FA;
+    width: 100%;
+    padding: 2em 0;
+
+    ul li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}

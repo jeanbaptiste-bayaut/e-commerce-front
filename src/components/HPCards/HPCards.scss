@@ -1,0 +1,14 @@
+.row-cards-3 {
+    margin-block: 3em!important;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+
+    .card-body p {
+        color: black;
+    }
+}

@@ -1,0 +1,30 @@
+.cart {
+    color: black;
+
+    h1 {
+        margin-left: 1em;
+    }
+
+    .product-details {
+        width: 60%;
+    }
+
+    .product {
+        gap: 10px;
+        padding-block: 1em;
+        border-bottom: 1px solid #e6e0e0;
+        max-width: 90%;
+        margin-left: 2em;
+        justify-content: space-between;
+        align-items: center;
+
+        .title {
+            width: 25%;
+        }
+    }
+
+    .cart-product-image {
+        max-width: 60px;
+    }
+}
+

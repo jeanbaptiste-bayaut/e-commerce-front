@@ -1,0 +1,17 @@
+.plp-container {
+    margin-left: 3em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    .card {
+        min-height: 600px;
+    }
+
+    .card-text {
+        color: grey;
+    }
+
+    .container-md .row {
+        row-gap: 10px;
+    }
+}

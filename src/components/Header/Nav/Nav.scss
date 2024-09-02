@@ -1,0 +1,15 @@
+.navbar-collapse .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-right {
+    justify-self: flex-end;
+}
+

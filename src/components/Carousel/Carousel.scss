@@ -1,0 +1,29 @@
+.carousel-item {
+    max-width: 1920px;
+}
+
+.carousel-image {
+    max-height: 700px;
+    width: 100%;
+}
+
+.carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom: calc(20% - 5em);
+
+    p {
+        color: black;
+    }
+}
+
+.left {
+    left: 3em;
+    align-items: start;
+}
+
+.right {
+    right: 3em;
+    align-items: end;
+}
